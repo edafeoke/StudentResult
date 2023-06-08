@@ -35,7 +35,7 @@ echo "<script type='text/javascript'> document.location = 'dashboard.php'; </scr
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
     	<meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Student Result Management System</title>
+        <title>Online Result Processing System</title>
         <link rel="stylesheet" href="css/bootstrap.min.css" media="screen" >
         <link rel="stylesheet" href="css/font-awesome.min.css" media="screen" >
         <link rel="stylesheet" href="css/animate-css/animate.min.css" media="screen" >
@@ -48,7 +48,7 @@ echo "<script type='text/javascript'> document.location = 'dashboard.php'; </scr
 
             <div class="">
                 <div class="row">
- <h1 align="center">Student Result Management System</h1>
+ <h1 align="center">Online Result Processing System</h1>
                     <div class="col-lg-6 visible-lg-block">
 
 <section class="section">
@@ -66,7 +66,7 @@ echo "<script type='text/javascript'> document.location = 'dashboard.php'; </scr
                                                 <div class="panel-body p-20">
 
                                                     <div class="section-title">
-                                                        <p class="sub-title">Student Result Management System</p>
+                                                        <p class="sub-title">Online Result Processing System</p>
                                                     </div>
 
                                                     <form class="form-horizontal" method="post">
@@ -112,7 +112,7 @@ echo "<script type='text/javascript'> document.location = 'dashboard.php'; </scr
                                                 <div class="panel-body p-20">
 
                                                     <div class="section-title">
-                                                        <p class="sub-title">Student Result Management System</p>
+                                                        <p class="sub-title text-center">Online Result Processing System</p>
                                                     </div>
 
                                                     <form class="form-horizontal" method="post">
@@ -143,7 +143,7 @@ echo "<script type='text/javascript'> document.location = 'dashboard.php'; </scr
                                                 </div>
                                             </div>
                                             <!-- /.panel -->
-                                            <p class="text-muted text-center"><small>Copyright © 2020 SRMS  </a></small> </p>
+                                            <p class="text-muted text-center"><small>Copyright © 2020 ORPS  </a></small> </p>
                                         </div>
                                         <!-- /.col-md-11 -->
                                     </div>
