@@ -30,7 +30,7 @@ if (strlen($_SESSION['alogin']) == "") {
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>SRMS Admin Create Class</title>
+        <title>ORPS Admin Create Class</title>
         <link rel="stylesheet" href="css/bootstrap.css" media="screen">
         <link rel="stylesheet" href="css/font-awesome.min.css" media="screen">
         <link rel="stylesheet" href="css/animate-css/animate.min.css" media="screen">
@@ -77,7 +77,7 @@ if (strlen($_SESSION['alogin']) == "") {
                         <div class="container-fluid">
                             <div class="row page-title-div">
                                 <div class="col-md-6">
-                                    <h2 class="title">Create Student Class</h2>
+                                    <h2 class="title">Create Class</h2>
                                 </div>
 
                             </div>
@@ -98,17 +98,12 @@ if (strlen($_SESSION['alogin']) == "") {
 
                         <section class="section">
                             <div class="container-fluid">
-
-
-
-
-
                                 <div class="row">
                                     <div class="col-md-8 col-md-offset-2">
                                         <div class="panel">
                                             <div class="panel-heading">
                                                 <div class="panel-title">
-                                                    <h5>Create Student Class</h5>
+                                                    <h5>Create Class</h5>
                                                 </div>
                                             </div>
                                             <?php if ($msg) { ?>

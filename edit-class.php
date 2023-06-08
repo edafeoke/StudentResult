@@ -55,7 +55,7 @@ if (strlen($_SESSION['alogin']) == "") {
                         <div class="container-fluid">
                             <div class="row page-title-div">
                                 <div class="col-md-6">
-                                    <h2 class="title">Update Student Class</h2>
+                                    <h2 class="title">Update Class</h2>
                                 </div>
 
                             </div>
@@ -86,7 +86,7 @@ if (strlen($_SESSION['alogin']) == "") {
                                         <div class="panel">
                                             <div class="panel-heading">
                                                 <div class="panel-title">
-                                                    <h5>Update Student Class info</h5>
+                                                    <h5>Update Class info</h5>
                                                 </div>
                                             </div>
                                             <?php if ($msg) { ?>
@@ -114,9 +114,9 @@ if (strlen($_SESSION['alogin']) == "") {
                                                             <label for="success" class="control-label">Class Name</label>
                                                             <div class="">
                                                                 <!-- <input type="text" name="classname" value="<?php echo htmlentities($result->ClassName); ?>" required="required" class="form-control" id="success"> -->
-                                                                <select style="margin-bottom: 10px;" name="classname" value="Hnd" required="required" class="form-control" id="success">
-                                                                    <option value="ND">ND</option>
-                                                                    <option value="HND">HND</option>
+                                                                <select style="margin-bottom: 10px;" name="classname" value="Hd" required="required" class="form-control" id="success">
+                                                                    <option value="ND" <?php echo $result->ClassName=="ND" ? "selected":"" ?>>ND</option>
+                                                                    <option value="HND" <?php echo $result->ClassName=="HND" ? "selected":"" ?>>HND</option>
                                                                 </select>
                                                                 <span class="help-block">Eg- ND or HND etc</span>
                                                             </div>
@@ -125,9 +125,9 @@ if (strlen($_SESSION['alogin']) == "") {
                                                             <label for="success" class="control-label">Level</label>
                                                             <div class="">
                                                                 <!-- <input type="number" name="classnamenumeric" value="<?php echo htmlentities($result->ClassNameNumeric); ?>" required="required" class="form-control" id="success"> -->
-                                                                <select style="margin-bottom: 10px;" value="<?php echo htmlentities($result->ClassNameNumeric); ?>" name="classnamenumeric" required="required" class="form-control" id="success">
-                                                                    <option value="1">1</option>
-                                                                    <option value="2">2</option>
+                                                                <select style="margin-bottom: 10px;" selected="<?php echo htmlentities($result->ClassNameNumeric); ?>" name="classnamenumeric" required="required" class="form-control" id="success">
+                                                                    <option value="1" <?php echo $result->ClassNameNumeric=="1" ? "selected":"" ?>>1</option>
+                                                                    <option value="2" <?php echo $result->ClassNameNumeric=="2" ? "selected":"" ?>>2</option>
                                                                 </select>
                                                                 <span class="help-block">Eg- 1 or 2</span>
                                                             </div>
